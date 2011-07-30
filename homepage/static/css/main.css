@@ -1,0 +1,121 @@
+/* Sticky Footers */
+
+* {
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+	background-color: #D9DCDC;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -40px;
+	width: 940px;
+	padding: 0px 15px;
+	border: solid 1px #CBCBCB;
+	background: #FAFAFA;
+	
+	-moz-box-shadow: 0px 0px 25px #CBCBCB;
+	-webkit-box-shadow: 0px 0px 25px #CBCBCB;
+	box-shadow: 0px 0px 25px #CBCBCB;		
+
+	-moz-box-shadow: 3px;
+	-webkit-box-shadow: 3px;
+	border-radius: 3px;		
+
+}
+
+#footer, .push {
+    height: 40px;
+}
+
+.wrapper {
+	margin-bottom: 10px;
+	margin-top: 25px;
+}
+
+/* Homepage CSS http://www.colourlovers.com/palette/43453/yohji_yamamoto */
+#header {
+}
+
+#header {
+	padding-top: 25px;
+}
+
+#header h1 {
+	font-size: 40px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+}
+
+nav li:first-child {
+	margin-left: 0px;
+}
+
+nav li {
+	float: left;
+	font-size: 20px;
+}
+
+nav ul li a { 
+    text-decoration: none; 
+	color: #757575; 
+} 
+ 
+#nav-1 a:hover { 
+	color: #FF5B78; 
+	border-bottom: 2px solid #FF5B78;
+} 
+
+#nav-2 a:hover { 
+	color: #4D642D; 
+	border-bottom: 2px solid #4D642D;
+} 
+
+#nav-3 a:hover { 
+	color: #FBB829; 
+	border-bottom: 2px solid #FBB829;
+} 
+
+#nav-4 a:hover { 
+	color: #000000; 
+	border-bottom: 2px solid #000000;
+} 
+
+#nav-5 a:hover { 
+	color: #774F38; 
+	border-bottom: 2px solid #774F38;
+} 
+
+#page_trimming {
+	padding: 10px 0;
+	border-bottom: solid 1px #CBCBCB;
+	margin-bottom: 20px;
+}
+
+#main-content {
+}
+
+.images img {
+	width: 100px;
+	border: 1px solid #BBB;
+	background-color: #FFF;
+	padding: 2px;
+	margin: 5px;
+}
+
+.images img:first-child {
+	margin-left: 0px;
+}
+
+.image-box a:link {
+	text-decoration: none;
+}
+
